@@ -32,8 +32,12 @@ gem 'devise'
 
 gem 'autoprefixer-rails', '10.2.5'
 gem 'font-awesome-sass'
+gem 'pundit'
 gem 'simple_form'
-group :development, :test do  gem 'pry-byebug'
+gem 'simple_token_authentication'
+
+group :development, :test do
+  gem 'pry-byebug'
   gem 'pry-rails'
   gem 'dotenv-rails'
 
